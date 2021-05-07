@@ -1,0 +1,22 @@
+{
+  "name": "daras",
+  "version": "1.0.0",
+  "description": "daras is a fast React componet development tool.达拉斯是一个快速的React组件开发工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antilmid/daras.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antilmid/daras/issues"
+  },
+  "homepage": "https://github.com/antilmid/daras#readme",
+  "devDependencies": {
+    "best-shell-tool": "^1.1.0"
+  }
+}
