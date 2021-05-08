@@ -23,8 +23,12 @@ module.exports = env => {
       path: path.resolve(__dirname, '../dist'),
       filename: '[name].js',
       pathinfo: true,
-      // externals: [/node_modules/]
       // publicPath: path.resolve(__dirname, '../node_modules')
+    },
+    externals: (_, req, cb) => {
+      console.log(_, req)
+      if(req === 'react') return cb(null, `commonjs ${req}`)
+      cb();
     },
     plugins:[new ImportModules()]
   };

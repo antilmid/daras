@@ -1,2 +1,8 @@
-import react from 'react';
-console.log(react)
+import React, {} from 'react';
+export default function () {
+  return (
+    <div>
+      hello world
+    </div>
+  );
+}
